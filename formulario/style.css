@@ -1,0 +1,67 @@
+/*====  RESET ============================ */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.container-header {
+  display: flex;
+}
+
+.logo-image {
+  height: 90px;
+  margin-left: 18.75rem;
+}
+
+h1 {
+  margin-left: 18.75rem;
+  margin-top: 2rem;
+}
+
+/* Inicio  Formulario*/
+
+.formContainer {
+  width: 300px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  margin-left: 40%;
+}
+a {
+  color: #406980;
+  text-decoration: none;
+}
+
+.name {
+  margin-bottom: 15px;
+}
+
+.email {
+  margin-bottom: 15px;
+}
+
+.phone {
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+.name_label {
+  text-align: start;
+  margin-left: 60px;
+  display: block;
+  color: #345b70;
+  font-size: 1.18889em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.3em;
+}
+
+/* FIM Formulario*/

@@ -1,0 +1,19 @@
+.imagem {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 120px;
+}
+
+img:hover {
+  border: 4px solid #5500ff;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#imagem1 {
+  margin-left: 0;
+}

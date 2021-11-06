@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marco Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="logo">
+          <img class="logo-image" src="/assets/Pucpr-logo.jpg" alt="" />
+        </div>
+        <div class="nome">
+          <h1>Marco Aurelio Vieira Rodrigues</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="formContainer">
+        <form>
+          <label for="Nome" class="name_label">Nome</label>
+          <input
+            class="name"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nome"
+          /><br />
+          <label for="Nome" class="name_label">Email</label>
+          <input
+            class="email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          /><br />
+          <label for="Nome" class="name_label">Telefone</label>
+          <input
+            class="phone"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Whatsapp/Telefone"
+          /><br />
+          <label for="Nome" class="name_label">Mensagem</label>
+          <input
+            class="message"
+            type="text"
+            placeholder="Mensagem"
+            id="message"
+          /><br />
+          <label for="Nome" class="name_label">Duvida</label>
+          <input
+            class="duvida"
+            type="text"
+            placeholder="duvida"
+            id="duvida"
+          /><br />
+
+          <br />
+          <button class="submit" onclick="verificarForm()" type="submit">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
